@@ -17,10 +17,10 @@ const Portfolio: React.FC = () => {
       description: 'Desarrollo completo de identidad visual'
     },
     {
-      title: 'Publicidad',
-      category: 'Publicidad Digital',
-      image: '/img/4.jpg',
-      description: 'Campañas en redes sociales, imagenes, videos y banner para anuncios'
+      title: 'Para eventos y personas',
+      category: 'Papelería',
+      image: '/img/6.jpg',
+      description: 'Invitaciones, trípticos, menus y targetas de presentación'
     },
     {
       title: 'Packaging - KN Hamburguesas',
@@ -29,11 +29,18 @@ const Portfolio: React.FC = () => {
       description: 'Diseño de empaque para super-hamburguesas'
     },
     {
-      title: 'Para eventos y personas',
-      category: 'Papelería',
-      image: '/img/6.jpg',
-      description: 'Invitaciones, trípticos, menus y targetas de presentación'
+      title: 'Publicidad',
+      category: 'Publicidad Digital',
+      image: '/img/4.jpg',
+      description: 'Publicidad en redes sociales'
     },
+    {
+      title: 'Publicidad',
+      category: 'Publicidad Digital',
+      image: '/img/8.jpg',
+      description: 'Campaña promocional para redes sociales'
+    },
+
   ];
 
   return (

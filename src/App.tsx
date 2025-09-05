@@ -22,10 +22,10 @@ function App() {
         scrollToSection={scrollToSection}
       />
       <Hero scrollToSection={scrollToSection} />
-      <About />
+      <Portfolio />
       <Experience />
       <Skills />
-      <Portfolio />
+      <About />
       <Contact />
       <Footer />
     </div>

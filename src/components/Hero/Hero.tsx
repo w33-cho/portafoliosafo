@@ -1,5 +1,5 @@
 import React from 'react';
-import { Download} from 'lucide-react';
+import { Download, ChevronDown } from 'lucide-react';
 import Portfolio from '../../pdf/portafolio.pdf';
 
 interface HeroProps {
@@ -25,12 +25,11 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
             Especializada en branding, diseño digital y comunicación visual impactante.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <button 
-              onClick={() => scrollToSection('portfolio')}
+            <a
               className="bg-[#F77B01] text-white px-8 py-3 rounded-full hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1"
-            >
-              Ver Mi Trabajo
-            </button>
+            href='https://api.whatsapp.com/send?phone=5352078283&text=Hola'>
+              Contáctame
+            </a>
              
             <a className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-full hover:border-orange-600 hover:text-orange-600 transition-colors flex items-center gap-2 justify-center" target='_blank' href={Portfolio}  rel='noopener noreferrer' download={Portfolio} >
               <Download size={16} />
@@ -52,6 +51,9 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
             </div>
           </div>
         </div>
+        <div className=" max-lg:hidden absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <ChevronDown size={32} className="text-orange-400" />
+      </div>
       </div>
     </section>
   );

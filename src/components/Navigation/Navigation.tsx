@@ -16,10 +16,10 @@ const Navigation: React.FC<NavigationProps> = ({
 }) => {
   const navItems = [
     { id: 'hero', label: 'Inicio' },
-    { id: 'about', label: 'Sobre Mí' },
+    { id: 'portfolio', label: 'Portfolio' },
     { id: 'experience', label: 'Experiencia' },
     { id: 'skills', label: 'Habilidades' },
-    { id: 'portfolio', label: 'Portfolio' },
+    { id: 'about', label: 'Sobre Mí' },
     { id: 'contact', label: 'Contacto' }
   ];
 

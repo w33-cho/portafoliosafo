@@ -20,8 +20,9 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({ experience, index }) =>
           <p className="text-gray-700">{experience.description}</p>
         </div>
       </div>
-      
+      <div className="  max-lg:hidden  absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-orange-600 rounded-full border-4 border-white shadow-lg"></div>
     </div>
+    
   );
 };
 
